@@ -22,22 +22,21 @@
     </header>
     <main>
       <section class="container">
-        <h1>About Me</h1>
-        <img src="assets/images/profile_image.jpg" alt="My Profile Image" />
-        <p>
-          Hello, my name is Dallin and this is a little about me. I am 24 and I
-          have lived in Utah all my life. I have been married to my wife
-          Christina for three years and we have a beautify daughter named Ella.
-          I met my wife at a church activity and she has been crazy about me
-          ever since.
-        </p>
-        <p>My hobbies include</p>
-        <ul class="hobbies">
-          <li class="hobby">Hanging with the family</li>
-          <li class="hobby">Cooking</li>
-          <li class="hobby">Reading Manga</li>
-          <li class="hobby">Learning</li>
-        </ul>
+        <h1>Contact</h1>
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="John Doe" />
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="example@example.com" />
+          <label for="message">Message</label>
+          <textarea
+            name="messageBox"
+            id="message"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" value="Submit" />
+        </form>
       </section>
     </main>
     <footer>
