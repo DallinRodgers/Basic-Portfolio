@@ -16,6 +16,7 @@
 .container {
   width: 960px;
   margin: 0 auto;
+  position: relative;
 }
 .flex {
   display: flex;
@@ -97,6 +98,8 @@ section {
   background: var(--secondary-color);
   padding: 30px;
   min-width: 960px;
+  position: absolute;
+  top: 20px;
 }
 .content div {
   padding-top: 20px;
