@@ -150,7 +150,7 @@ form input::placeholder {
   position: relative;
   min-width: 200px;
   min-height: 200px;
-  margin: 0 10px;
+  margin: 10px;
 }
 .portfolio-item span {
   width: 100%;
@@ -183,6 +183,7 @@ footer {
   background-color: var(--footer-bg);
   color: var(--regular-font);
   position: relative;
+  border-top: 8px solid #4aaaa5;
 }
 footer span {
   font-size: 18px;
