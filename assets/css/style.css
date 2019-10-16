@@ -187,8 +187,6 @@ footer {
 }
 footer span {
   font-size: 18px;
-  position: absolute;
-  bottom: 0;
   width: 100%;
   text-align: center;
   color: var(--secondary-color);
